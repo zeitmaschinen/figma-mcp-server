@@ -292,13 +292,14 @@ File key: ABC123XYZ
 ```
 
 **How to get your file key:**
-1. Open your Figma file in the browser
-2. Look at the URL: 
-   - `https://www.figma.com/file/ABC123XYZ/File-Name` OR
-   - `https://www.figma.com/design/ABC123XYZ/File-Name`
-3. Copy the `ABC123XYZ` part (between `/file/` or `/design/` and the next `/`)
+1. Click the "Share" button in the top-right corner of the Figma interface.
+2. Select "Copy link" to copy the file URL.
+3. Paste the link somewhere so you can view it. It will look like one of these:
+  - https://www.figma.com/file/ABC123XYZ/File-Name
+  - https://www.figma.com/design/ABC123XYZ/File-Name
+4. Copy the part between /file/ or /design/ and the next /. In this example:
 
-Claude will access your Figma and show you the results!
+ABC123XYZ ← This is your file key.
 
 ---
 
