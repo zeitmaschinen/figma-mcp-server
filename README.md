@@ -22,7 +22,7 @@ No coding needed, just configuration. Feel free to audit the files yourself, or 
 
 ## Download the project files
 
-Before starting, [download the project files here](https://github.com/zeitmaschinen/figma-mcp-server/archive/refs/heads/main.zip) and extract the ZIP to your computer.
+Before starting, <a href="https://github.com/zeitmaschinen/figma-mcp-server/" target="_blank">download the project files here</a> and extract the ZIP to your computer.
 
 This ZIP file contains:
 - Pre-compiled server code (ready to use!)
@@ -62,22 +62,22 @@ Press Enter. If something like `v23.10.0` appears, it worked!
 
 ### Step 2: Extract project files
 
-1. Locate the downloaded ZIP file: `figma-mcp-server.zip`
+1. Locate the downloaded ZIP file: `figma-mcp-server-main.zip`
 2. **Right-click** on the ZIP file
 3. Choose **"Extract All..."** (Windows) or **"Unzip"** (Mac)
 4. Choose a location (for example, /Documents/ folder)
 5. Click **"Extract"**
 
-You should now have a folder called `figma-mcp-server` with these files inside:
+You should now have a folder called `figma-mcp-server-main` with these files inside:
 
 ```
-/figma-mcp-server/
+/figma-mcp-server-main/
 ├── src/         (source code for reference)
 │   └── server.ts
 ├── .env         (you'll add your Figma token here)
 ├── .gitignore
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 └── tsconfig.json
 ```
 
@@ -86,14 +86,14 @@ You should now have a folder called `figma-mcp-server` with these files inside:
 ### Step 3: Open terminal in project folder
 
 **Windows:**
-1. Open the `figma-mcp-server` folder
+1. Open the `figma-mcp-server-main` folder
 2. Hold **Shift** and **right-click** in an empty area
 3. Select **"Open PowerShell window here"** or **"Open Command Prompt here"**
 
 **Mac:**
 1. Open **Terminal** (Command + Space, type "terminal")
 2. Type `cd ` (with a space after)
-3. Drag the `figma-mcp-server` folder into the terminal window
+3. Drag the `figma-mcp-server-main` folder into the terminal window
 4. Press Enter
 
 ---
@@ -132,7 +132,7 @@ When finished, all the necessary libraries will be downloaded into a `node_modul
 
 #### 5.2: Add token to .env file
 
-1. In the `figma-mcp-server` folder, open the `.env` file in a text editor (Notepad on Windows or TextEdit on Mac)
+1. In the `figma-mcp-server-main` folder, open the `.env` file in a text editor (Notepad on Windows or TextEdit on Mac)
 2. You'll see just: `FIGMA_ACCESS_TOKEN=`
 3. **Paste your copied token after the equals sign**
 4. Should look like: `FIGMA_ACCESS_TOKEN=figd_XYZ123ABC...`
@@ -178,8 +178,8 @@ pwd
 
 Something like this will appear:
 
-- **Windows:** `C:\Users\YourName\Documents\figma-mcp-server`
-- **Mac:** `/Users/yourname/Documents/figma-mcp-server`
+- **Windows:** `C:\Users\YourName\Documents\figma-mcp-server-main`
+- **Mac:** `/Users/yourname/Documents/figma-mcp-server-main`
 
 **Copy this complete path**! Write it down, you'll need it in the next step.
 
@@ -243,7 +243,7 @@ Something like this will appear:
     "figma-design-system": {
       "command": "node",
       "args": [
-        "/Users/maria/Documents/figma-mcp-server/build/server.js"
+        "/Users/maria/Documents/figma-mcp-server-main/build/server.js"
       ],
       "env": {
         "FIGMA_ACCESS_TOKEN": "figd_ABC123XYZ..."
@@ -261,7 +261,7 @@ Something like this will appear:
     "figma-design-system": {
       "command": "node",
       "args": [
-        "C:\\Users\\Maria\\Documents\\figma-mcp-server\\build\\server.js"
+        "C:\\Users\\Maria\\Documents\\figma-mcp-server-main\\build\\server.js"
       ],
       "env": {
         "FIGMA_ACCESS_TOKEN": "figd_ABC123XYZ..."
@@ -325,7 +325,42 @@ If everything is working, you can now ask Claude to:
 - Extract design tokens and styles
 - Check for inconsistencies in your design system
 
-## Example commands to try
-1. Claude, show me all components from my Figma file - File key: ABC123XYZ
-2. Claude, search for button components in my design system - File key: ABC123XYZ
-3. Claude, analyze the naming conventions in my Figma file - File key: ABC123XYZ
+## Real Design System Management Commands
+
+### Component Audit & Organization
+1. Claude, show me all components from my Figma file - File key: zaf0FNCc91FSvBRhnMbxFV
+2. Claude, search for "button" components in my design system - File key: zaf0FNCc91FSvBRhnMbxFV
+3. Claude, find all "navigation" components - File key: zaf0FNCc91FSvBRhnMbxFV
+4. Claude, list all component sets and their variants - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Component Specifications
+5. Claude, give me complete specs for the "Botão call to action" component - File key: zaf0FNCc91FSvBRhnMbxFV
+6. Claude, show me detailed measurements and styles of the Statusbar - File key: zaf0FNCc91FSvBRhnMbxFV
+7. Claude, extract all colors, fonts, and spacing from the Header component - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Quality Control & Consistency
+8. Claude, analyze naming conventions in my Figma file - File key: zaf0FNCc91FSvBRhnMbxFV
+9. Claude, check for naming inconsistencies across all components - File key: zaf0FNCc91FSvBRhnMbxFV
+10. Claude, identify components that don't follow kebab-case naming - File key: zaf0FNCc91FSvBRhnMbxFV
+11. Claude, find duplicate or similar component names - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Design Tokens & Styles
+12. Claude, extract all color styles from my design system - File key: zaf0FNCc91FSvBRhnMbxFV
+13. Claude, show me all text styles and typography tokens - File key: zaf0FNCc91FSvBRhnMbxFV
+14. Claude, list all colors and text styles used in the file - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Design System Overview
+15. Claude, give me a complete overview of my design system structure - File key: zaf0FNCc91FSvBRhnMbxFV
+16. Claude, how many pages and components exist in my file? - File key: zaf0FNCc91FSvBRhnMbxFV
+17. Claude, show me the file structure and organization - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Component Development
+18. Claude, get specs for "bottom navigation" and create HTML/CSS code - File key: zaf0FNCc91FSvBRhnMbxFV
+19. Claude, analyze the Statusbar component and generate React code - File key: zaf0FNCc91FSvBRhnMbxFV
+20. Claude, compare all "bottom navigation" variants and document differences - File key: zaf0FNCc91FSvBRhnMbxFV
+
+### Problem Detection
+21. Claude, find components without descriptions - File key: zaf0FNCc91FSvBRhnMbxFV
+22. Claude, identify components that should be component sets with variants - File key: zaf0FNCc91FSvBRhnMbxFV
+23. Claude, check which components don't have properties configured - File key: zaf0FNCc91FSvBRhnMbxFV
+24. Claude, find inconsistent spacing or sizing patterns across similar components - File key: zaf0FNCc91FSvBRhnMbxFV
