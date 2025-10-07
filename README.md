@@ -319,7 +319,7 @@ Remember to always provide the file key to Claude in your initial request or whe
 1. Claude, show me all components from my Figma file
 2. Claude, search for "button" components in my design system
 3. Claude, find all "navigation" components
-4. 4. Claude, list all component sets and their variants
+4. Claude, list all component sets and their variants
 
 ### Component Specifications
 5. Claude, give me complete specs for the "Botão call to action" component
