@@ -313,41 +313,42 @@ Claude will access your Figma and show you the results!
 7. Claude Desktop was completely closed and reopened
 
 ## Design System management commands - What can you ask?
+Remember to always provide the file key to Claude in your initial request or whenever you want to analyze a new file. Otherwise, it will ask for it. 😊
 
 ### Component Audit & Organization
-1. Claude, show me all components from my Figma file - File key: zaf0FNCc91FSvBRhnMbxFV
-2. Claude, search for "button" components in my design system - File key: zaf0FNCc91FSvBRhnMbxFV
-3. Claude, find all "navigation" components - File key: zaf0FNCc91FSvBRhnMbxFV
-4. Claude, list all component sets and their variants - File key: zaf0FNCc91FSvBRhnMbxFV
+1. Claude, show me all components from my Figma file
+2. Claude, search for "button" components in my design system
+3. Claude, find all "navigation" components
+4. 4. Claude, list all component sets and their variants
 
 ### Component Specifications
-5. Claude, give me complete specs for the "Botão call to action" component - File key: zaf0FNCc91FSvBRhnMbxFV
-6. Claude, show me detailed measurements and styles of the Statusbar - File key: zaf0FNCc91FSvBRhnMbxFV
-7. Claude, extract all colors, fonts, and spacing from the Header component - File key: zaf0FNCc91FSvBRhnMbxFV
+5. Claude, give me complete specs for the "Botão call to action" component
+6. Claude, show me detailed measurements and styles of the Statusbar
+7. Claude, extract all colors, fonts, and spacing from the Header component
 
 ### Quality Control & Consistency
-8. Claude, analyze naming conventions in my Figma file - File key: zaf0FNCc91FSvBRhnMbxFV
-9. Claude, check for naming inconsistencies across all components - File key: zaf0FNCc91FSvBRhnMbxFV
-10. Claude, identify components that don't follow kebab-case naming - File key: zaf0FNCc91FSvBRhnMbxFV
-11. Claude, find duplicate or similar component names - File key: zaf0FNCc91FSvBRhnMbxFV
+1. Claude, analyze naming conventions in my Figma file
+2. Claude, check for naming inconsistencies across all components
+3.  Claude, identify components that don't follow kebab-case naming
+4.  Claude, find duplicate or similar component names
 
 ### Design Tokens & Styles
-12. Claude, extract all color styles from my design system - File key: zaf0FNCc91FSvBRhnMbxFV
-13. Claude, show me all text styles and typography tokens - File key: zaf0FNCc91FSvBRhnMbxFV
-14. Claude, list all colors and text styles used in the file - File key: zaf0FNCc91FSvBRhnMbxFV
+1.  Claude, extract all color styles from my design system
+2.  Claude, show me all text styles and typography tokens
+3.  Claude, list all colors and text styles used in the file
 
 ### Design System Overview
-15. Claude, give me a complete overview of my design system structure - File key: zaf0FNCc91FSvBRhnMbxFV
-16. Claude, how many pages and components exist in my file? - File key: zaf0FNCc91FSvBRhnMbxFV
-17. Claude, show me the file structure and organization - File key: zaf0FNCc91FSvBRhnMbxFV
+1.  Claude, give me a complete overview of my design system structure
+2.  Claude, how many pages and components exist in my file?
+3.  Claude, show me the file structure and organization
 
 ### Component Development
-18. Claude, get specs for "bottom navigation" and create HTML/CSS code - File key: zaf0FNCc91FSvBRhnMbxFV
-19. Claude, analyze the Statusbar component and generate React code - File key: zaf0FNCc91FSvBRhnMbxFV
-20. Claude, compare all "bottom navigation" variants and document differences - File key: zaf0FNCc91FSvBRhnMbxFV
+1.  Claude, get specs for "bottom navigation" and create HTML/CSS code
+2.  Claude, analyze the Statusbar component and generate React code
+3.  Claude, compare all "bottom navigation" variants and document differences
 
 ### Problem Detection
-21. Claude, find components without descriptions - File key: zaf0FNCc91FSvBRhnMbxFV
-22. Claude, identify components that should be component sets with variants - File key: zaf0FNCc91FSvBRhnMbxFV
-23. Claude, check which components don't have properties configured - File key: zaf0FNCc91FSvBRhnMbxFV
-24. Claude, find inconsistent spacing or sizing patterns across similar components - File key: zaf0FNCc91FSvBRhnMbxFV
+1.  Claude, find components without descriptions
+2.  Claude, identify components that should be component sets with variants
+3.  Claude, check which components don't have properties configured
+4.  Claude, find inconsistent spacing or sizing patterns across similar components
