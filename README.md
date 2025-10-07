@@ -22,7 +22,7 @@ No coding needed, just configuration. Feel free to audit the files yourself, or 
 
 ## Download the project files
 
-Before starting, [download the project files here](/documents/figma-mcp-server.zip) and extract the ZIP to your computer.
+Before starting, [download the project files here](https://github.com/zeitmaschinen/figma-mcp-server/archive/refs/heads/main.zip) and extract the ZIP to your computer.
 
 This ZIP file contains:
 - Pre-compiled server code (ready to use!)
