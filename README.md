@@ -322,33 +322,33 @@ Remember to always provide the file key to Claude in your initial request or whe
 4. Claude, list all component sets and their variants
 
 ### Component Specifications
-5. Claude, give me complete specs for the "Botão call to action" component
+5. Claude, give me complete specs for the "Button call to action" component
 6. Claude, show me detailed measurements and styles of the Statusbar
 7. Claude, extract all colors, fonts, and spacing from the Header component
 
 ### Quality Control & Consistency
 1. Claude, analyze naming conventions in my Figma file
 2. Claude, check for naming inconsistencies across all components
-3.  Claude, identify components that don't follow kebab-case naming
-4.  Claude, find duplicate or similar component names
+3. Claude, identify components that don't follow kebab-case naming
+4. Claude, find duplicate or similar component names
 
 ### Design Tokens & Styles
-1.  Claude, extract all color styles from my design system
-2.  Claude, show me all text styles and typography tokens
-3.  Claude, list all colors and text styles used in the file
+1. Claude, extract all color styles from my design system
+2. Claude, show me all text styles and typography tokens
+3. Claude, list all colors and text styles used in the file
 
 ### Design System Overview
-1.  Claude, give me a complete overview of my design system structure
-2.  Claude, how many pages and components exist in my file?
-3.  Claude, show me the file structure and organization
+1. Claude, give me a complete overview of my design system structure
+2. Claude, how many pages and components exist in my file?
+3. Claude, show me the file structure and organization
 
 ### Component Development
-1.  Claude, get specs for "bottom navigation" and create HTML/CSS code
-2.  Claude, analyze the Statusbar component and generate React code
-3.  Claude, compare all "bottom navigation" variants and document differences
+1. Claude, get specs for "bottom navigation" and create HTML/CSS code
+2. Claude, analyze the Statusbar component and generate React code
+3. Claude, compare all "bottom navigation" variants and document differences
 
 ### Problem Detection
-1.  Claude, find components without descriptions
-2.  Claude, identify components that should be component sets with variants
-3.  Claude, check which components don't have properties configured
-4.  Claude, find inconsistent spacing or sizing patterns across similar components
+1. Claude, find components without descriptions
+2. Claude, identify components that should be component sets with variants
+3. Claude, check which components don't have properties configured
+4. Claude, find inconsistent spacing or sizing patterns across similar components
