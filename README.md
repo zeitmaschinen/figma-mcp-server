@@ -312,20 +312,7 @@ Claude will access your Figma and show you the results!
 6. `claude_desktop_config.json` has your Figma token
 7. Claude Desktop was completely closed and reopened
 
----
-
-## What you can do
-
-If everything is working, you can now ask Claude to:
-
-- List all components from your Figma file
-- Search for specific components (example: "find all button components")
-- Analyze naming conventions
-- Get detailed component information
-- Extract design tokens and styles
-- Check for inconsistencies in your design system
-
-## Real Design System Management Commands
+## Design System management commands - What can you ask?
 
 ### Component Audit & Organization
 1. Claude, show me all components from my Figma file - File key: zaf0FNCc91FSvBRhnMbxFV
