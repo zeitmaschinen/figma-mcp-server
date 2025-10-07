@@ -297,9 +297,7 @@ File key: ABC123XYZ
 3. Paste the link somewhere so you can view it. It will look like one of these:
   - https://www.figma.com/file/ABC123XYZ/File-Name
   - https://www.figma.com/design/ABC123XYZ/File-Name
-4. Copy the part between /file/ or /design/ and the next /. In this example:
-
-ABC123XYZ ← This is your file key.
+4. Copy the part between /file/ or /design/ and the next /. In this example: ABC123XYZ ← This is your file key.
 
 ---
 
