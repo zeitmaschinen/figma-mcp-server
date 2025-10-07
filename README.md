@@ -77,6 +77,7 @@ You should now have a folder called `figma-mcp-server` with these files inside:
 ├── .env                (you'll add your Figma token here)
 ├── .env.example
 ├── .gitignore
+├── package-lock.json
 ├── package.json
 └── tsconfig.json
 ```
