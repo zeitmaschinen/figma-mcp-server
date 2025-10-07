@@ -314,8 +314,8 @@ File key: ABC123XYZ
 6. `claude_desktop_config.json` has your Figma token
 7. Claude Desktop was completely closed and reopened
 
-## Design System management commands - What can you ask?
-Remember to always provide the file key to Claude in your initial request or whenever you want to analyze a new file. Otherwise, it will ask for it. 😊
+## Fun part begins! What type of questions can you make?
+First of all, one tip: Remember to always provide the file key to Claude in your initial request or whenever you want to analyze a new file. Otherwise, it will ask for it. 😊
 
 ### Component Audit & Organization
 1. Claude, show me all components from my Figma file
