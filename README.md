@@ -3,7 +3,7 @@ Connect Figma to Claude via MCP
 
 ---
 
-This method is about **governance** (auditing and maintaining quality), not **implementation**. Use cases below:
+This method is about **governance** (auditing and maintaining quality), not **implementation**!
 
 ### Use Figma's native MCP when:
 - You want to generate code from designs
