@@ -16,7 +16,7 @@ This method is about **governance** (auditing and maintaining quality), not **im
 - You need bulk queries across hundreds of components
 - You want Claude to help maintain design system quality
 
-Besides, most official MCPs (like Figma’s) only work with Dev Mode and follow a freemium model. This server bypasses that limitation by allowing direct access to file data via the public API. And it’s completely free! 💯
+Most official MCPs (like Figma’s) only work with Dev Mode and follow a freemium model. This server bypasses that limitation by allowing direct access to file data via the public API. And it’s completely free! 💯
 
 
 # Start here ↓
